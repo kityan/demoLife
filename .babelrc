@@ -1,0 +1,29 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "targets": {
+          "chrome": 60,
+          "firefox": 55
+        },
+        "useBuiltIns": false,
+        "loose": false,
+        "spec": false,
+        "uglify": false,
+        "debug": true,
+        "modules": "commonjs",
+        "include": [],
+        "exclude": []
+      }
+    ],
+    [
+      "react"
+    ]
+  ],
+  "plugins": [
+    "transform-class-properties",
+    "transform-object-rest-spread"
+    // ["transform-runtime", {"polyfill": false, "regenerator": true}]
+  ]
+}

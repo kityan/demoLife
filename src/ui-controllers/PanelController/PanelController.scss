@@ -1,0 +1,44 @@
+.wrapper {
+  user-select: none;
+  font-size: 12px;
+
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+
+.left {
+  width: 50%;
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  align-items: start;
+  & > button {
+
+  }
+}
+
+.right {
+  width: 50%;
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+
+  .spentIndicator {
+
+  }
+
+  .iterationsIndicator {
+
+  }
+}
+
+
+.delayWrapper {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}

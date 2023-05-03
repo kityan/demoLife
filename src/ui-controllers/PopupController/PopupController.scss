@@ -1,0 +1,31 @@
+.visible {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.visible a {
+ color: #FFF;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  & > input, & > button {
+    width: 80px;
+    background: lightgray;
+    border: 1px solid #000;
+    border-radius: 3px;
+    padding: 5px;
+    color: #000;
+    border: 0px;
+    box-sizing: border-box;
+    &::placeholder {
+      font-style: italic;
+    }
+  }
+}
+
